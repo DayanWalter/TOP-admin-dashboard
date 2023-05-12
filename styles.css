@@ -1,3 +1,38 @@
 *{
     background-color: #9333ea;
 }
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+.container{
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template: 
+    [row1-start] "sidebar header" 1fr [row1-end]
+    [row2-start] "sidebar main" 4fr [row2-end]
+    / 1fr 4fr;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: red;
+}
+.header{
+    grid-area: header;
+    background-color: blue;
+}
+.main{
+    grid-area: main;
+    background-color: green;
+}
+.logo-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50px;
+    height: 50px;
+    gap: 5px;
+}
+.logo-box > *{
+    background-color: white;
+}

@@ -17,7 +17,6 @@ body, html {
 }
 .sidebar{
     grid-area: sidebar;
-    background-color: red;
 }
 
 svg{

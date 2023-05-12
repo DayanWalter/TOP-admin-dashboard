@@ -30,6 +30,9 @@ li{
 .headline{
     font-size: xx-large;
 }
+.headline-svg{
+    width: 40px;
+}
 
 .sidebar ul{
     display: grid;

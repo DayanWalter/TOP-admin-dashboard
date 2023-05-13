@@ -47,7 +47,10 @@ li{
 .header{
     grid-area: header;
     background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+
 .main{
     grid-area: main;
     background-color: green;

@@ -72,7 +72,6 @@ li{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    /* justify-items: end; */
 }
 .top-right svg{
     fill: black;
@@ -88,6 +87,33 @@ li{
 }
 .name-tr{
     background-color: white;
+}
+.bottom-left{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template: 
+    [row1-start] "picture greeting" 1fr [row1-end]
+    [row2-start] "picture name" 1fr [row2-end]
+    / 80px 1fr;
+}
+.profile-picture-bl{
+    grid-area: picture;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: yellow;
+    align-self: center;
+}
+.greeting{
+    background-color: white;
+    grid-area: greeting;
+    align-self: end;
+    font-size:small;
+}
+.name-bl{
+    background-color: white;
+    grid-area: name;
+    font-size:x-large;
 }
 .main{
     grid-area: main;

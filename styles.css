@@ -49,8 +49,24 @@ li{
     background-color: blue;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 15px;
 }
-
+.top-left{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 25px 1fr;
+}
+.top-left svg{
+    fill: black;
+    background-color: white;
+}
+.searchbar{
+    background-color: rgb(199, 199, 199);
+    min-width: 100px;
+    height: 25px;
+    border-radius: 15px;
+    align-self: center;
+}
 .main{
     grid-area: main;
     background-color: green;

@@ -57,6 +57,7 @@ li{
 .top-left{
     display: grid;
     grid-template-columns: 25px 1fr;
+    gap: 15px;
 }
 .top-left svg{
     fill: black;

@@ -137,14 +137,19 @@ li{
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
-.main-ls{
+
+.cards{
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
 }
+
 .main-rs{
     display: grid;
 }
 .card{
-    width: 100px;
-    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
     background-color:rgb(197, 197, 197) ;
+
 }

@@ -133,5 +133,18 @@ li{
 
 .main{
     grid-area: main;
-    background-color: green;
+    background-color: rgb(235, 235, 235);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.main-ls{
+    display: grid;
+}
+.main-rs{
+    display: grid;
+}
+.card{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(197, 197, 197) ;
 }

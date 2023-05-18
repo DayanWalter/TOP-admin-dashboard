@@ -163,3 +163,8 @@ li{
     display: grid;
     gap: 20px;
 }
+ .block-rs-bottom{
+    grid-template-columns: 60px 1fr;
+    align-items: center;
+    padding-top: 20px;
+ }

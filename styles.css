@@ -136,20 +136,21 @@ li{
     background-color: rgb(235, 235, 235);
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding: 20px;
 }
 
 .cards{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    height: 90%;
+    align-items: stretch;
 }
 
 .main-rs{
     display: grid;
 }
 .card{
-    min-width: 100px;
-    min-height: 100px;
     background-color:rgb(197, 197, 197) ;
-
+    padding: 20px;
 }

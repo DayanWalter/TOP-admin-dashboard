@@ -169,7 +169,6 @@ li{
 }
  .block-rs-bottom{
     display: grid;
-
     grid-template-columns: 60px 1fr;
     align-items: center;
     gap: 20px;
@@ -177,7 +176,7 @@ li{
 h4{
     margin-bottom: 5px;
 }
-.card-rs-top>h4{
+.card-rs-top > h4{
     margin-top: 0px;
 }
 .undertext{

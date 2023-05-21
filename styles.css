@@ -2,11 +2,11 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-  }
-  a{
+}
+a{
     text-decoration: none;
     color: white;
-  }
+}
 .container{
     height: 100%;
     box-sizing: border-box;
@@ -20,7 +20,6 @@ body, html {
     grid-area: sidebar;
     background-color: #3b82f6
 }
-
 svg{
     width: 25px;
     fill: white;
@@ -35,7 +34,6 @@ li{
 .headline-svg{
     width: 40px;
 }
-
 .sidebar ul{
     display: grid;
     grid-template-columns: 1fr 8fr;
@@ -58,6 +56,7 @@ li{
     display: grid;
     grid-template-columns: 25px 1fr;
     gap: 15px;
+    margin-left: 50px;
 }
 .top-left svg{
     fill: black;
@@ -93,7 +92,7 @@ li{
     display: grid;
     place-items: center;
 }
-.name-tr{
+.name-tr, .name-bl{
     font-weight:bold;
 }
 .bottom-left{
@@ -102,6 +101,7 @@ li{
     [row1-start] "picture greeting" 1fr [row1-end]
     [row2-start] "picture name" 1fr [row2-end]
     / 80px 1fr;
+    margin-left: 50px;
 }
 .profile-picture-bl{
     grid-area: picture;
@@ -138,7 +138,6 @@ li{
     color: white;
     font-weight: bold;
 }
-
 .main{
     grid-area: main;
     background-color: rgb(235, 235, 235);
@@ -148,7 +147,6 @@ li{
     padding: 20px;
     box-shadow: inset 0px 5px 5px -5px grey;
 }
-
 .cards-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -175,7 +173,6 @@ li{
 .card > span, .undertext, .card-rs-top > span{
     color: grey;
 }
-
 .block-rs-top,.block-rs-bottom{
     background-color:rgb(248, 248, 248) ;
     padding: 20px;
@@ -187,7 +184,7 @@ li{
     grid-template-columns: 60px 1fr;
     align-items: center;
     gap: 20px;
- }
+}
 h4{
     margin-bottom: 5px;
 }

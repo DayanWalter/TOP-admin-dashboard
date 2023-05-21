@@ -159,6 +159,16 @@ li{
     padding: 0px 20px 20px 20px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px grey, inset 15px 0px 0px -5px #eabf33;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+.icon-container{
+    justify-self: end;
+    align-self: end;
+}
+.icon-container > svg{
+    fill: black;
+    margin-right: 20px;
 }
 .card > span, .undertext, .card-rs-top > span{
     color: grey;

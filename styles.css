@@ -160,10 +160,13 @@ li{
     border-radius: 10px;
     box-shadow: 5px 5px 5px grey, inset 15px 0px 0px -5px #eabf33;
 }
+.card > span, .undertext, .card-rs-top > span{
+    color: grey;
+}
 
 .block-rs-top,.block-rs-bottom{
     background-color:rgb(248, 248, 248) ;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px grey;
 }
@@ -178,7 +181,4 @@ h4{
 }
 .card-rs-top > h4{
     margin-top: 0px;
-}
-.undertext{
-    color: grey;
 }
